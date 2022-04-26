@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.classcontainer{
+    display: inline;
+}
+
+.card1{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 300px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+}
+
+.card2{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    height: 300px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+}
+
+.card3{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    height: 300px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+}
+
+.card4{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    height: 300px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: .5s;
+}
+
+.card-front1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://99px.ru/sstorage/56/2013/12/image_563012130153328414049.jpg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .5s;
+}
+
+.card-front2{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/ef/22/a6/ef22a632a46ca447cc98cf9aac036116.jpg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .5s;
+}
+
+.card-front3{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/ef/22/a6/ef22a632a46ca447cc98cf9aac036116.jpg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .5s;
+}
+
+.card-front4{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://99px.ru/sstorage/56/2013/12/image_563012130153328414049.jpg);
+    background-position: 50%, 50%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .5s;
+}
+
+.card-back1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .5s;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-back2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .5s;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-back3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .5s;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-back4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .5s;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card1:hover .card-front1{
+    transform: rotateX(-180deg);
+    }
+    
+.card1:hover .card-back1{
+    transform: rotateX(0deg);
+}
+
+.card2:hover .card-front2{
+    transform: rotateX(-180deg);
+    }
+    
+.card2:hover .card-back2{
+    transform: rotateX(0deg);
+}
+
+.card3:hover .card-front3{
+    transform: rotateX(-180deg);
+    }
+    
+.card3:hover .card-back3{
+    transform: rotateX(0deg);
+}
+
+.card4:hover .card-front4{
+    transform: rotateX(-180deg);
+    }
+    
+.card4:hover .card-back4{
+    transform: rotateX(0deg);
+}
